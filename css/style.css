@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 }
 
-.hero {
+.hero-section {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
@@ -72,6 +72,11 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .filled-in {
     background-color: #3882f6;
 }
@@ -87,4 +92,138 @@ button {
 .hero-subtitle {
     font-size: 18px;
     margin-bottom: 36px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-cards {
+    display: flex;
+    gap: 16px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 48px;
+    padding: 48px 0px 64px 0px;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.card-image {
+    width: 80%;
+    border-radius: 24px;
+}
+
+.info-title {
+    color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 80px 48px 80px 48px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.quote-author {
+    display: flex;
+    font-weight: bold;
+    text-align: right;
+    margin-left: auto;
+    margin-top: 16px;
+}
+
+.cta-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    align-items: center;
+    width: 80%;
+    margin: 100px 0px 100px 0px;
+    padding: 80px 48px 80px 48px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+}
+
+.cta-right {
+    margin-left: auto;
+    flex-shrink: 0;
+    margin-right: 80px;
+}
+
+.cta-left {
+    margin-right: auto;
+    margin-left: 80px;
+}
+
+.button-outline {
+    border: 2px solid white;
+    background-color: transparent;
+    flex-shrink: 0;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+footer {
+    background-color: #1f2937;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
 }
